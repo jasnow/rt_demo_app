@@ -6,4 +6,4 @@ by [Michael Hartl](http://michaelhartl.com/).
 
 [![Build Status](https://travis-ci.org/jasnow/rt_demo_app.png)](https://travis-ci.org/jasnow/rt_demo_app)
 
-[![Build Status](https://gemnasium.com/jasnow/rt_demo_app?travis)](https://gemnasium.com/jasnow/rt_demo_app.png?travis)
+[(https://gemnasium.com/jasnow/rt_demo_app?travis)](https://gemnasium.com/jasnow/rt_demo_app.png?travis)
