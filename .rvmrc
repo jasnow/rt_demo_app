@@ -1,1 +1,1 @@
-rvm --default use ruby-1.9.3-p392@rt_demo_app --create
+rvm --default use ruby-1.9.3-p448@rt_demo_app --create
