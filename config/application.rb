@@ -38,5 +38,7 @@ module RtDemoApp
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+
+    I18n.config.enforce_available_locales = false
   end
 end

@@ -32,7 +32,7 @@ GEM
     builder (3.0.4)
     erubis (2.7.0)
     hike (1.2.3)
-    i18n (0.6.8)
+    i18n (0.6.9)
     journey (1.0.4)
     json (1.8.1)
     mail (2.5.4)
