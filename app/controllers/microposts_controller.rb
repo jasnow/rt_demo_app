@@ -40,7 +40,7 @@ class MicropostsController < ApplicationController
   # POST /microposts
   # POST /microposts.xml
   def create
-    @micropost = Micropost.new(params[:micropost])
+    @micropost = Micropost.new(micropost_params)
 
     respond_to do |format|
       if @micropost.save
@@ -62,7 +62,7 @@ class MicropostsController < ApplicationController
     @micropost = Micropost.find(params[:id])
 
     respond_to do |format|
-      if @micropost.update_attributes(params[:micropost])
+      if @micropost.update_attributes(micropost_params)
         format.html { redirect_to(@micropost,
           :notice => 'Micropost was successfully updated.') }
         format.xml  { head :ok }
@@ -84,5 +84,10 @@ class MicropostsController < ApplicationController
       format.html { redirect_to(microposts_url) }
       format.xml  { head :ok }
     end
+  end
+
+private
+  def micropost_params
+    params.require(:micropost).permit(:micropost)
   end
 end
