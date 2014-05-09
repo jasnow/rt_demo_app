@@ -1,1 +1,1 @@
-rvm --default use ruby-2.1.1@rt_demo_app --create
+rvm --default use ruby-2.1.2@rt_demo_app --create
