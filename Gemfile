@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0.beta4'
 
 gem 'sqlite3'
-gem 'arel', '6.0.0.beta2' # 11/266/2014: Must have for clean test run.
 
 group :development do
   gem 'dawn', :require=>false

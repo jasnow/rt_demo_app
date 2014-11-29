@@ -103,7 +103,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  arel (= 6.0.0.beta2)
   dawn
   rails (= 4.2.0.beta4)
   sqlite3
