@@ -5,7 +5,7 @@ gem 'rails', '4.2.0'
 gem 'sqlite3'
 
 group :development do
-  gem 'dawn', :require=>false
+  gem 'dawnscanner', :require=>false
 end
 
 ######################################################################
