@@ -4,3 +4,5 @@ rvm:
     - "2.2.3"
 
 before_script: bundle exec rake db:migrate
+cache: bundler
+sudo: false
