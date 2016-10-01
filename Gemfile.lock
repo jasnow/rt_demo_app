@@ -58,7 +58,7 @@ GEM
       dm-validations (~> 1.2.0)
     data_objects (0.10.17)
       addressable (~> 2.1)
-    dawnscanner (1.6.4)
+    dawnscanner (1.6.5)
       cvss
       data_mapper
       dm-sqlite-adapter
@@ -199,4 +199,4 @@ DEPENDENCIES
   sqlite3
 
 BUNDLED WITH
-   1.13.1
+   1.13.2
