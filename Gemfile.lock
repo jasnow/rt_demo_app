@@ -186,7 +186,7 @@ GEM
     tilt (2.0.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    unicode-display_width (1.1.1)
+    unicode-display_width (1.1.2)
     uuidtools (2.1.5)
 
 PLATFORMS
