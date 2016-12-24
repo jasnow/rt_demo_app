@@ -18,30 +18,30 @@ class UsersControllerTest < ActionController::TestCase
 
   test "should create user" do
     assert_difference('User.count') do
-      post :create, :user => @user.attributes
+      post :create, params: { :user => @user.attributes }
     end
 
     assert_redirected_to user_path(assigns(:user))
   end
 
   test "should show user" do
-    get :show, :id => @user.to_param
+    get :show, params: { :id => @user.to_param }
     assert_response :success
   end
 
   test "should get edit" do
-    get :edit, :id => @user.to_param
+    get :edit, params: { :id => @user.to_param }
     assert_response :success
   end
 
   test "should update user" do
-    put :update, :id => @user.to_param, :user => @user.attributes
+    put :update, params: { :id => @user.to_param, :user => @user.attributes }
     assert_redirected_to user_path(assigns(:user))
   end
 
   test "should destroy user" do
     assert_difference('User.count', -1) do
-      delete :destroy, :id => @user.to_param
+      delete :destroy, params: { :id => @user.to_param }
     end
 
     assert_redirected_to users_path

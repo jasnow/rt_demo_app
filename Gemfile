@@ -1,10 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '5.0.1'
 
 gem 'sqlite3'
 gem 'overcommit'
 
 group :development do
   gem 'dawnscanner', require: false
+end
+
+group :test do
+  gem 'rails-controller-testing'
 end
