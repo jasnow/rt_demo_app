@@ -118,8 +118,8 @@ GEM
       tilt
     i18n (0.7.0)
     iniparse (1.4.2)
-    json (1.8.3)
-    json_pure (1.8.3)
+    json (1.8.5)
+    json_pure (1.8.5)
     justify (1.0.2)
     logger-colors (1.0.0)
     loofah (2.0.3)
