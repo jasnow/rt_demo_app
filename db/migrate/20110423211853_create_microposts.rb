@@ -1,4 +1,4 @@
-class CreateMicroposts < ActiveRecord::Migration
+class CreateMicroposts < ActiveRecord::Migration[5.1]
   def self.up
     create_table :microposts do |t|
       t.string :content
