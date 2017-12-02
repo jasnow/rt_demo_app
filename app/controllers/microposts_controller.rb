@@ -13,7 +13,7 @@ class MicropostsController < ApplicationController
   # GET /microposts/1
   # GET /microposts/1.xml
   def show
-    @micropost = Micropost.find(params[:id])
+    @micropost = Micropost.where("id = ?", params[:id]).first
 
     respond_to do |format|
       format.html # show.html.erb
@@ -34,7 +34,7 @@ class MicropostsController < ApplicationController
 
   # GET /microposts/1/edit
   def edit
-    @micropost = Micropost.find(params[:id])
+    @micropost = Micropost.where("id = ?", params[:id]).first
   end
 
   # POST /microposts
@@ -59,7 +59,7 @@ class MicropostsController < ApplicationController
   # PUT /microposts/1
   # PUT /microposts/1.xml
   def update
-    @micropost = Micropost.find(params[:id])
+    @micropost = Micropost.where("id = ?", params[:id]).first
 
     respond_to do |format|
       if @micropost.update_attributes(micropost_params)
@@ -77,7 +77,7 @@ class MicropostsController < ApplicationController
   # DELETE /microposts/1
   # DELETE /microposts/1.xml
   def destroy
-    @micropost = Micropost.find(params[:id])
+    @micropost = Micropost.where("id = ?", params[:id]).first
     @micropost.destroy
 
     respond_to do |format|
