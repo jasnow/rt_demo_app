@@ -116,7 +116,7 @@ GEM
       data_objects (= 0.10.17)
     erubi (1.7.0)
     fastercsv (1.5.5)
-    ffi (1.9.18)
+    ffi (1.9.21)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     haml (5.0.4)
