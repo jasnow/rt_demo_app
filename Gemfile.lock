@@ -59,7 +59,7 @@ GEM
       sqlite3
       sys-uname
       terminal-table
-    erubi (1.7.1)
+    erubi (1.8.0)
     ffi (1.9.25)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
