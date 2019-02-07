@@ -169,7 +169,7 @@ DEPENDENCIES
   overcommit
   rails (= 6.0.0.beta1)
   rails-controller-testing
-  sqlite3
+  sqlite3 (= 1.3.13)
 
 BUNDLED WITH
    1.17.3
