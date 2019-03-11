@@ -57,7 +57,7 @@ GEM
     builder (3.2.3)
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
-    concurrent-ruby (1.1.4)
+    concurrent-ruby (1.1.5)
     crass (1.0.4)
     cvss (0.99.0)
     dawnscanner (1.6.9)
