@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '6.0.0.beta3'
 
-gem 'sqlite3', '1.3.13' # 2/6/2019: LOCKED DOWN
+gem 'sqlite3'
 gem 'overcommit'
 
 group :development do
