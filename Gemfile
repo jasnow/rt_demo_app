@@ -4,6 +4,7 @@ gem 'rails', '6.0.0'
 
 gem 'sqlite3'
 gem 'overcommit'
+gem 'brakeman'
 
 group :development do
   gem 'dawnscanner', require: false
