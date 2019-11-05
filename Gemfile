@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '6.0.1.rc1'
+gem 'rails', '6.0.1'
 
 gem 'sqlite3'
 gem 'overcommit'
