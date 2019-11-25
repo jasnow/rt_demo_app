@@ -84,7 +84,7 @@ GEM
     iniparse (1.4.4)
     justify (1.0.2)
     logger-colors (1.0.0)
-    loofah (2.3.1)
+    loofah (2.4.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
