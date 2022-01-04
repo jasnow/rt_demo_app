@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 5dbbe244b3a778a493f1b0974aa5d2e72c0b1071
+  revision: bed85678aaaa1f483704c305edc5c2c62403693e
   branch: 7-0-stable
   specs:
     actioncable (7.0.0)
@@ -176,6 +176,7 @@ GEM
     zeitwerk (2.5.3)
 
 PLATFORMS
+  x86_64-darwin-16
   x86_64-linux
 
 DEPENDENCIES
