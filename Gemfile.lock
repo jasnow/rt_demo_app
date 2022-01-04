@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: bed85678aaaa1f483704c305edc5c2c62403693e
+  revision: 958af523587488cc3ae2e925bc46a3a9f6b9d504
   branch: 7-0-stable
   specs:
     actioncable (7.0.0)
@@ -165,7 +165,7 @@ GEM
     temple (0.8.2)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
-    thor (1.1.0)
+    thor (1.2.0)
     tilt (2.0.10)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
