@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '7.0.2.4'
+gem 'rails', '7.0.3'
 gem 'sprockets-rails' # 12/27/2021: Needed for Rails 7.x.
 
 gem 'sqlite3'
