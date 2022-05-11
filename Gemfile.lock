@@ -175,7 +175,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
-    strscan (3.0.2)
+    strscan (3.0.3)
     sys-uname (1.2.2)
       ffi (~> 1.1)
     temple (0.8.2)
