@@ -90,7 +90,7 @@ GEM
     haml (5.2.2)
       temple (>= 0.8.0)
       tilt
-    i18n (1.11.0)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     iniparse (1.5.0)
     justify (1.0.2)
@@ -206,4 +206,4 @@ DEPENDENCIES
   sqlite3
 
 BUNDLED WITH
-   2.3.17
+   2.3.18
