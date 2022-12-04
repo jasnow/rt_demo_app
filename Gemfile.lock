@@ -98,8 +98,11 @@ GEM
     loofah (2.19.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-    mail (2.7.1)
+    mail (2.8.0)
       mini_mime (>= 0.1.1)
+      net-imap
+      net-pop
+      net-smtp
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
@@ -158,7 +161,7 @@ GEM
       zeitwerk (~> 2.5)
     rake (13.0.6)
     rexml (3.2.5)
-    ruby_parser (3.19.1)
+    ruby_parser (3.19.2)
       sexp_processor (~> 4.16)
     sexp_processor (4.16.1)
     sprockets (4.1.1)
