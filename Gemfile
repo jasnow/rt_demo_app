@@ -1,16 +1,18 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'rails', '7.0.4.1'
-gem 'sprockets-rails' # 12/27/2021: Needed for Rails 7.x.
+gem "rails", "7.0.4.1"
+gem "sprockets-rails" # 12/27/2021: Needed for Rails 7.x.
 
-gem 'sqlite3'
-gem 'overcommit'
-gem 'brakeman'
+gem "sqlite3"
+gem "overcommit"
+gem "brakeman"
 
 group :development do
-  gem 'dawnscanner', require: false
+  gem "dawnscanner", require: false
 end
 
+gem "standard", group: [:development, :test]
+
 group :test do
-  gem 'rails-controller-testing'
+  gem "rails-controller-testing"
 end

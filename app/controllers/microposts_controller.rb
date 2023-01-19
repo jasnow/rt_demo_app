@@ -6,7 +6,7 @@ class MicropostsController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.xml  { render :xml => @microposts }
+      format.xml { render xml: @microposts }
     end
   end
 
@@ -17,7 +17,7 @@ class MicropostsController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.xml  { render :xml => @micropost }
+      format.xml { render xml: @micropost }
     end
   end
 
@@ -28,7 +28,7 @@ class MicropostsController < ApplicationController
 
     respond_to do |format|
       format.html # new.html.erb
-      format.xml  { render :xml => @micropost }
+      format.xml { render xml: @micropost }
     end
   end
 
@@ -44,14 +44,20 @@ class MicropostsController < ApplicationController
 
     respond_to do |format|
       if @micropost.save
-        format.html { redirect_to(@micropost,
-          :notice => 'Micropost was successfully created.') }
-        format.xml  { render :xml => @micropost,
-          :status => :created, :location => @micropost }
+        format.html {
+          redirect_to(@micropost,
+            notice: "Micropost was successfully created.")
+        }
+        format.xml {
+          render xml: @micropost,
+            status: :created, location: @micropost
+        }
       else
-        format.html { render :action => "new" }
-        format.xml  { render :xml => @micropost.errors,
-          :status => :unprocessable_entity }
+        format.html { render action: "new" }
+        format.xml {
+          render xml: @micropost.errors,
+            status: :unprocessable_entity
+        }
       end
     end
   end
@@ -63,13 +69,17 @@ class MicropostsController < ApplicationController
 
     respond_to do |format|
       if @micropost.update(micropost_params)
-        format.html { redirect_to(@micropost,
-          :notice => 'Micropost was successfully updated.') }
-        format.xml  { head :ok }
+        format.html {
+          redirect_to(@micropost,
+            notice: "Micropost was successfully updated.")
+        }
+        format.xml { head :ok }
       else
-        format.html { render :action => "edit" }
-        format.xml  { render :xml => @micropost.errors,
-          :status => :unprocessable_entity }
+        format.html { render action: "edit" }
+        format.xml {
+          render xml: @micropost.errors,
+            status: :unprocessable_entity
+        }
       end
     end
   end
@@ -82,11 +92,12 @@ class MicropostsController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to(microposts_url) }
-      format.xml  { head :ok }
+      format.xml { head :ok }
     end
   end
 
-private
+  private
+
   def micropost_params
     params.require(:micropost).permit(:micropost)
   end
