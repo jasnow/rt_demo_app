@@ -73,7 +73,7 @@ GEM
       bundler (>= 1.2.0, < 3)
       thor (~> 1.0)
     childprocess (4.1.0)
-    concurrent-ruby (1.2.0)
+    concurrent-ruby (1.2.2)
     crass (1.0.6)
     cvss (0.99.0)
     date (3.3.3)
