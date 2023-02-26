@@ -6,6 +6,7 @@ gem "sprockets-rails" # 12/27/2021: Needed for Rails 7.x.
 gem "sqlite3"
 gem "overcommit"
 gem "brakeman"
+gem 'webrick'
 
 group :development do
   gem "dawnscanner", require: false
