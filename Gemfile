@@ -19,3 +19,5 @@ gem "spektr"
 group :test do
   gem "rails-controller-testing"
 end
+
+gem 'simplecov', require: false, group: :test

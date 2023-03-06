@@ -11,3 +11,4 @@ doc/app
 .DS_Store
 config/secrets.yml
 node_modules/
+coverage
