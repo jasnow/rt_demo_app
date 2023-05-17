@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-    
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -20,21 +20,23 @@ jobs:
       - name:
         uses: ruby/setup-ruby@v1
         with:
+          ruby-version: "3.3.0-preview1"
           bundler-cache: true
 
       - name:
         run: bin/rails db:schema:load
 
       - name:
-        run: bin/rake
+        run: COVERAGE="yes" bin/rake
 
   lint:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Install Ruby and gems
         uses: ruby/setup-ruby@v1
         with:
+          ruby-version: "3.3.0-preview1"
           bundler-cache: true
