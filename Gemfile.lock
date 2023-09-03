@@ -92,8 +92,8 @@ GEM
     docile (1.4.0)
     erubi (1.12.0)
     ffi (1.15.5)
-    globalid (1.1.0)
-      activesupport (>= 5.0)
+    globalid (1.2.0)
+      activesupport (>= 6.1)
     haml (6.1.2)
       temple (>= 0.8.2)
       thor
