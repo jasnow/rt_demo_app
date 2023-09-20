@@ -21,6 +21,6 @@ module RtDemoApp
     # config.i18n.default_locale = :de
 
     config.action_dispatch.return_only_media_type_on_content_type = false
-    config.active_record.legacy_connection_handling = false
+    config.active_support.cache_format_version = 7.0
   end
 end
