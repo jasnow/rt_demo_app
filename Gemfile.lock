@@ -103,7 +103,7 @@ GEM
     drb (2.1.1)
       ruby2_keywords
     erubi (1.12.0)
-    ffi (1.15.5)
+    ffi (1.16.1)
     globalid (1.2.1)
       activesupport (>= 6.1)
     haml (6.1.2)
