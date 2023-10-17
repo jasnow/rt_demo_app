@@ -158,7 +158,7 @@ GEM
       racc
     pastel (0.8.0)
       tty-color (~> 0.5)
-    psych (5.1.1)
+    psych (5.1.1.1)
       stringio
     ptools (1.5.0)
     racc (1.7.1)
