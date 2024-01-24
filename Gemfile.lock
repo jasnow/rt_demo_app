@@ -167,7 +167,7 @@ GEM
       iniparse (~> 1.4)
       rexml (~> 3.2)
     parallel (1.24.0)
-    parser (3.3.0.4)
+    parser (3.3.0.5)
       ast (~> 2.4.1)
       racc
     pastel (0.8.0)
@@ -255,7 +255,7 @@ GEM
       simplecov_json_formatter (~> 0.1)
     simplecov-html (0.12.3)
     simplecov_json_formatter (0.1.4)
-    slim (5.2.0)
+    slim (5.2.1)
       temple (~> 0.10.0)
       tilt (>= 2.1.0)
     spektr (0.4.1)
