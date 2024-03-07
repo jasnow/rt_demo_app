@@ -102,8 +102,7 @@ GEM
       terminal-table
       thor
     docile (1.4.0)
-    drb (2.2.0)
-      ruby2_keywords
+    drb (2.2.1)
     erubi (1.12.0)
     ffi (1.16.3)
     globalid (1.2.1)
@@ -112,11 +111,11 @@ GEM
       temple (>= 0.8.2)
       thor
       tilt
-    i18n (1.14.1)
+    i18n (1.14.4)
       concurrent-ruby (~> 1.0)
     iniparse (1.5.0)
     io-console (0.7.2)
-    irb (1.11.2)
+    irb (1.12.0)
       rdoc
       reline (>= 0.4.2)
     json (2.7.1)
@@ -132,7 +131,7 @@ GEM
       net-imap
       net-pop
       net-smtp
-    marcel (1.0.2)
+    marcel (1.0.4)
     mini_mime (1.1.5)
     mini_portile2 (2.8.5)
     minitest (5.22.2)
@@ -225,7 +224,7 @@ GEM
     reline (0.4.3)
       io-console (~> 0.5)
     rexml (3.2.6)
-    rubocop (1.60.2)
+    rubocop (1.62.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
@@ -233,16 +232,15 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml (>= 3.2.5, < 4.0)
-      rubocop-ast (>= 1.30.0, < 2.0)
+      rubocop-ast (>= 1.31.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
-    rubocop-ast (1.30.0)
-      parser (>= 3.2.1.0)
+    rubocop-ast (1.31.1)
+      parser (>= 3.3.0.4)
     rubocop-performance (1.20.2)
       rubocop (>= 1.48.1, < 2.0)
       rubocop-ast (>= 1.30.0, < 2.0)
     ruby-progressbar (1.13.0)
-    ruby2_keywords (0.0.5)
     ruby_audit (2.3.0)
       bundler-audit (~> 0.9.0)
     ruby_parser (3.21.0)
