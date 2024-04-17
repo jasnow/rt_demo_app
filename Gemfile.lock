@@ -133,7 +133,7 @@ GEM
       net-smtp
     marcel (1.0.4)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.5)
+    mini_portile2 (2.8.6)
     minitest (5.22.3)
     mutex_m (0.2.0)
     net-imap (0.4.10)
@@ -146,20 +146,20 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.1)
-    nokogiri (1.16.3)
+    nokogiri (1.16.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.16.3-aarch64-linux)
+    nokogiri (1.16.4-aarch64-linux)
       racc (~> 1.4)
-    nokogiri (1.16.3-arm-linux)
+    nokogiri (1.16.4-arm-linux)
       racc (~> 1.4)
-    nokogiri (1.16.3-arm64-darwin)
+    nokogiri (1.16.4-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.3-x86-linux)
+    nokogiri (1.16.4-x86-linux)
       racc (~> 1.4)
-    nokogiri (1.16.3-x86_64-darwin)
+    nokogiri (1.16.4-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.3-x86_64-linux)
+    nokogiri (1.16.4-x86_64-linux)
       racc (~> 1.4)
     overcommit (0.63.0)
       childprocess (>= 0.6.3, < 6)
@@ -221,7 +221,7 @@ GEM
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
     regexp_parser (2.9.0)
-    reline (0.5.0)
+    reline (0.5.2)
       io-console (~> 0.5)
     rexml (3.2.6)
     rubocop (1.62.1)
@@ -354,4 +354,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.5.7
+   2.5.9
