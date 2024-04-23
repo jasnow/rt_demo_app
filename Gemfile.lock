@@ -349,7 +349,7 @@ DEPENDENCIES
   simplecov
   spektr
   sprockets-rails
-  sqlite3
+  sqlite3 (~> 1.4)
   standard
   webrick
 

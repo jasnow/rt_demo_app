@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem "rails", "7.1.3.2"
 gem "sprockets-rails" # 12/27/2021: Needed for Rails 7.x.
 
-gem "sqlite3"
+gem "sqlite3", "~> 1.4"
 gem "overcommit"
 gem "brakeman"
 gem 'webrick'
