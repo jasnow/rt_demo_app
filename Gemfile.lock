@@ -96,7 +96,7 @@ GEM
       sys-uname
       terminal-table
       thor
-    docile (1.4.0)
+    docile (1.4.1)
     drb (2.2.1)
     erubi (1.13.0)
     ffi (1.17.0)
