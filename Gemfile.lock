@@ -104,16 +104,6 @@ GEM
     drb (2.2.1)
     erubi (1.13.0)
     ffi (1.17.0)
-    ffi (1.17.0-aarch64-linux-gnu)
-    ffi (1.17.0-aarch64-linux-musl)
-    ffi (1.17.0-arm-linux-gnu)
-    ffi (1.17.0-arm-linux-musl)
-    ffi (1.17.0-arm64-darwin)
-    ffi (1.17.0-x86-linux-gnu)
-    ffi (1.17.0-x86-linux-musl)
-    ffi (1.17.0-x86_64-darwin)
-    ffi (1.17.0-x86_64-linux-gnu)
-    ffi (1.17.0-x86_64-linux-musl)
     globalid (1.2.1)
       activesupport (>= 6.1)
     haml (6.3.0)
@@ -157,18 +147,6 @@ GEM
     nio4r (2.7.3)
     nokogiri (1.16.7)
       mini_portile2 (~> 2.8.2)
-      racc (~> 1.4)
-    nokogiri (1.16.7-aarch64-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.7-arm-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.7-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.7-x86-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.7-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     overcommit (0.64.0)
       childprocess (>= 0.6.3, < 6)
@@ -286,16 +264,6 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (2.1.0)
       mini_portile2 (~> 2.8.0)
-    sqlite3 (2.1.0-aarch64-linux-gnu)
-    sqlite3 (2.1.0-aarch64-linux-musl)
-    sqlite3 (2.1.0-arm-linux-gnu)
-    sqlite3 (2.1.0-arm-linux-musl)
-    sqlite3 (2.1.0-arm64-darwin)
-    sqlite3 (2.1.0-x86-linux-gnu)
-    sqlite3 (2.1.0-x86-linux-musl)
-    sqlite3 (2.1.0-x86_64-darwin)
-    sqlite3 (2.1.0-x86_64-linux-gnu)
-    sqlite3 (2.1.0-x86_64-linux-musl)
     standard (1.41.0)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
@@ -345,21 +313,9 @@ GEM
     zeitwerk (2.6.18)
 
 PLATFORMS
-  aarch64-linux
-  aarch64-linux-gnu
-  aarch64-linux-musl
-  arm-linux
-  arm-linux-gnu
-  arm-linux-musl
-  arm64-darwin
   ruby
-  x86-linux
-  x86-linux-gnu
-  x86-linux-musl
-  x86_64-darwin
   x86_64-darwin-16
-  x86_64-linux-gnu
-  x86_64-linux-musl
+  x86_64-linux
 
 DEPENDENCIES
   brakeman
@@ -376,4 +332,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.5.21
+   2.6.0.dev
