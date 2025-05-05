@@ -187,7 +187,7 @@ GEM
       prettyprint
     prettyprint (0.2.0)
     prism (1.4.0)
-    psych (5.2.3)
+    psych (5.2.4)
       date
       stringio
     ptools (1.5.0)
@@ -241,7 +241,7 @@ GEM
     reline (0.6.1)
       io-console (~> 0.5)
     rexml (3.4.1)
-    rubocop (1.75.4)
+    rubocop (1.75.5)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
