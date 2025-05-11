@@ -187,7 +187,7 @@ GEM
       prettyprint
     prettyprint (0.2.0)
     prism (1.4.0)
-    psych (5.2.4)
+    psych (5.2.5)
       date
       stringio
     ptools (1.5.0)
