@@ -75,7 +75,7 @@ GEM
     ast (2.4.3)
     base64 (0.2.0)
     benchmark (0.4.0)
-    bigdecimal (3.1.9)
+    bigdecimal (3.2.0)
     brakeman (7.0.2)
       racc
     builder (3.3.0)
@@ -243,7 +243,7 @@ GEM
     reline (0.6.1)
       io-console (~> 0.5)
     rexml (3.4.1)
-    rubocop (1.75.7)
+    rubocop (1.75.8)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
