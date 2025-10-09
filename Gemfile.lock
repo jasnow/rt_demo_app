@@ -75,7 +75,7 @@ GEM
     ast (2.4.3)
     base64 (0.3.0)
     benchmark (0.4.1)
-    bigdecimal (3.2.3)
+    bigdecimal (3.3.0)
     brakeman (7.1.0)
       racc
     builder (3.3.0)
@@ -102,7 +102,7 @@ GEM
       thor
     docile (1.4.1)
     drb (2.2.3)
-    erb (5.0.2)
+    erb (5.0.3)
     erubi (1.13.1)
     ffi (1.17.2)
     ffi (1.17.2-aarch64-linux-gnu)
@@ -127,7 +127,7 @@ GEM
       pp (>= 0.6.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    json (2.15.0)
+    json (2.15.1)
     justify (1.0.2)
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
@@ -145,8 +145,8 @@ GEM
     memoist3 (1.0.0)
     mini_mime (1.1.5)
     mini_portile2 (2.8.9)
-    minitest (5.25.5)
-    net-imap (0.5.11)
+    minitest (5.26.0)
+    net-imap (0.5.12)
       date
       net-protocol
     net-pop (0.1.2)
@@ -185,16 +185,16 @@ GEM
       racc
     pastel (0.8.0)
       tty-color (~> 0.5)
-    pp (0.6.2)
+    pp (0.6.3)
       prettyprint
     prettyprint (0.2.0)
-    prism (1.5.1)
+    prism (1.5.2)
     psych (5.2.6)
       date
       stringio
     ptools (1.5.0)
     racc (1.8.1)
-    rack (3.2.1)
+    rack (3.2.2)
     rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
@@ -353,7 +353,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
     unicode_utils (1.4.0)
-    uri (1.0.3)
+    uri (1.0.4)
     useragent (0.16.11)
     webrick (1.9.1)
     websocket-driver (0.8.0)
