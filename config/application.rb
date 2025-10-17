@@ -22,7 +22,5 @@ module RtDemoApp
 
     config.action_dispatch.return_only_media_type_on_content_type = false
     config.active_support.cache_format_version = 7.0
-
-    config.active_support.to_time_preserves_timezone = :zone
   end
 end
