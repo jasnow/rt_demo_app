@@ -118,15 +118,15 @@ GEM
       temple (>= 0.8.2)
       thor
       tilt
-    herb (0.8.9)
-    herb (0.8.9-aarch64-linux-gnu)
-    herb (0.8.9-aarch64-linux-musl)
-    herb (0.8.9-arm-linux-gnu)
-    herb (0.8.9-arm-linux-musl)
-    herb (0.8.9-arm64-darwin)
-    herb (0.8.9-x86_64-darwin)
-    herb (0.8.9-x86_64-linux-gnu)
-    herb (0.8.9-x86_64-linux-musl)
+    herb (0.8.10)
+    herb (0.8.10-aarch64-linux-gnu)
+    herb (0.8.10-aarch64-linux-musl)
+    herb (0.8.10-arm-linux-gnu)
+    herb (0.8.10-arm-linux-musl)
+    herb (0.8.10-arm64-darwin)
+    herb (0.8.10-x86_64-darwin)
+    herb (0.8.10-x86_64-linux-gnu)
+    herb (0.8.10-x86_64-linux-musl)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
     iniparse (1.5.0)
@@ -258,7 +258,7 @@ GEM
     reline (0.6.3)
       io-console (~> 0.5)
     rexml (3.4.4)
-    rubocop (1.82.1)
+    rubocop (1.84.2)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -266,7 +266,7 @@ GEM
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 2.9.3, < 3.0)
-      rubocop-ast (>= 1.48.0, < 2.0)
+      rubocop-ast (>= 1.49.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
     rubocop-ast (1.49.0)
@@ -322,10 +322,10 @@ GEM
     sqlite3 (2.9.0-x86_64-darwin)
     sqlite3 (2.9.0-x86_64-linux-gnu)
     sqlite3 (2.9.0-x86_64-linux-musl)
-    standard (1.53.0)
+    standard (1.54.0)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
-      rubocop (~> 1.82.0)
+      rubocop (~> 1.84.0)
       standard-custom (~> 1.0.0)
       standard-performance (~> 1.8)
     standard-custom (1.0.2)
@@ -439,15 +439,15 @@ CHECKSUMS
   ffi (1.17.3-x86_64-linux-musl) sha256=086b221c3a68320b7564066f46fed23449a44f7a1935f1fe5a245bd89d9aea56
   globalid (1.3.0) sha256=05c639ad6eb4594522a0b07983022f04aa7254626ab69445a0e493aa3786ff11
   haml (7.2.0) sha256=87fd2b71f7feab1724337b090a7d767f5ab2d42f08c974f3ead673f18cfcd55a
-  herb (0.8.9) sha256=8617e7eba753877cef231e3269a7e00788a9b67a91c3b79d1210ae20321b60f7
-  herb (0.8.9-aarch64-linux-gnu) sha256=9214cc24953c355f9ae785a95bb9362cdfc9fcd2ae4db2a32bc26c0b88f98c7f
-  herb (0.8.9-aarch64-linux-musl) sha256=4ee883eed0935cfe2e508d0843b015d689ef9d13f00e9ec4a81a35acd061dc13
-  herb (0.8.9-arm-linux-gnu) sha256=9f83c76899fecd5e3429bbd66728226e7b75539cc59283829041479381a6ceea
-  herb (0.8.9-arm-linux-musl) sha256=7e92f68a0174f667098a5fab7cef25942e0d36d54cf0b79b8669d8400072fdd9
-  herb (0.8.9-arm64-darwin) sha256=d045cce47bbec4d27a413fc4758e75bdd748a40430293b20bbb59789c02cad81
-  herb (0.8.9-x86_64-darwin) sha256=2c516b9921e0f98c8909bc7ef474c1e9c8a06ca11bdd9510b7725f798dee4cf7
-  herb (0.8.9-x86_64-linux-gnu) sha256=0315fef432649bb1aa139d01e7acad66f78b0abd5aa6d1e03ca5fe1bde224b14
-  herb (0.8.9-x86_64-linux-musl) sha256=caae9c6058ada130f070342c568c6efcb1c44295cdc9e505fe58cb4ee870a207
+  herb (0.8.10) sha256=5c70c1402ba7bcc3f46d676fbb1cf5489cfa67c898f4700d2e5407c5627bf331
+  herb (0.8.10-aarch64-linux-gnu) sha256=da47ed456350077e73c6d94336dda8a3ac141922c867cf552bf17cb0840388de
+  herb (0.8.10-aarch64-linux-musl) sha256=6317516ad3dc0fc4543dad748d9a34689426beb4ee5eace0ac0f3c185277b5ce
+  herb (0.8.10-arm-linux-gnu) sha256=535eaf3003aa115b7c6c7ea634cdf4234cbec91596d946e8817261a45b7699d9
+  herb (0.8.10-arm-linux-musl) sha256=2cded27f825c868322df1d7343670122e2317644d4d75191409b915cd6d559fe
+  herb (0.8.10-arm64-darwin) sha256=bba77f7f64ffd144f36af5d4573ca5ee863f7258acd71c8536384d63d60e3d72
+  herb (0.8.10-x86_64-darwin) sha256=d1aa283e9d354f3ec20db4ba725718441d1b9d24ff75e17fa244b27f7dd82ec3
+  herb (0.8.10-x86_64-linux-gnu) sha256=268b059f66a1f3191c8d7c15cfcb293a91be5c3811704856acd49b6f2e5dc1b1
+  herb (0.8.10-x86_64-linux-musl) sha256=bd1b2bf9f0ab9ceecdd874cdf03424176b83fa3c937188568c011cecf40b5d7f
   i18n (1.14.8) sha256=285778639134865c5e0f6269e0b818256017e8cde89993fdfcbfb64d088824a5
   iniparse (1.5.0) sha256=36a165e98d8a250b7631c4a7f9afba32af78f089970cd6446a39771189c761f1
   io-console (0.8.2) sha256=d6e3ae7a7cc7574f4b8893b4fca2162e57a825b223a177b7afa236c5ef9814cc
@@ -504,7 +504,7 @@ CHECKSUMS
   regexp_parser (2.11.3) sha256=ca13f381a173b7a93450e53459075c9b76a10433caadcb2f1180f2c741fc55a4
   reline (0.6.3) sha256=1198b04973565b36ec0f11542ab3f5cfeeec34823f4e54cebde90968092b1835
   rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
-  rubocop (1.82.1) sha256=09f1a6a654a960eda767aebea33e47603080f8e9c9a3f019bf9b94c9cab5e273
+  rubocop (1.84.2) sha256=5692cea54168f3dc8cb79a6fe95c5424b7ea893c707ad7a4307b0585e88dbf5f
   rubocop-ast (1.49.0) sha256=49c3676d3123a0923d333e20c6c2dbaaae2d2287b475273fddee0c61da9f71fd
   rubocop-performance (1.26.1) sha256=cd19b936ff196df85829d264b522fd4f98b6c89ad271fa52744a8c11b8f71834
   ruby-progressbar (1.13.0) sha256=80fc9c47a9b640d6834e0dc7b3c94c9df37f08cb072b7761e4a71e22cff29b33
@@ -527,7 +527,7 @@ CHECKSUMS
   sqlite3 (2.9.0-x86_64-darwin) sha256=59fe51baa3cb33c36d27ce78b4ed9360cd33ccca09498c2ae63850c97c0a6026
   sqlite3 (2.9.0-x86_64-linux-gnu) sha256=72fff9bd750070ba3af695511ba5f0e0a2d8a9206f84869640b3e99dfaf3d5a5
   sqlite3 (2.9.0-x86_64-linux-musl) sha256=ef716ba7a66d7deb1ccc402ac3a6d7343da17fac862793b7f0be3d2917253c90
-  standard (1.53.0) sha256=f3c9493385db7079d0abce6f7582f553122156997b81258cd361d3480eeacf9c
+  standard (1.54.0) sha256=7a4b08f83d9893083c8f03bc486f0feeb6a84d48233b40829c03ef4767ea0100
   standard-custom (1.0.2) sha256=424adc84179a074f1a2a309bb9cf7cd6bfdb2b6541f20c6bf9436c0ba22a652b
   standard-performance (1.9.0) sha256=49483d31be448292951d80e5e67cdcb576c2502103c7b40aec6f1b6e9c88e3f2
   stringio (3.2.0) sha256=c37cb2e58b4ffbd33fe5cd948c05934af997b36e0b6ca6fdf43afa234cf222e1
